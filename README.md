@@ -45,7 +45,7 @@ Rentify is a web application designed to simplify the process of finding rental 
 
 
 ## Deployment
-The project is deployed on Heroku. You can access the live application [here](insert-link).
+The project is deployed on Aws . You can access the live application .
 
 ## Usage
 1. Register as a seller or buyer using the provided forms.
