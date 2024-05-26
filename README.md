@@ -1,70 +1,68 @@
-# Getting Started with Create React App
+# RENTIFY - Where Renting Meets Simplicity
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+Rentify is a web application designed to simplify the process of finding rental properties for both landlords and tenants. It allows landlords to post their properties and tenants to browse and express interest in them.
 
-## Available Scripts
+## Features
+- User Authentication: Register and login as a seller or buyer.
+- Seller Features:
+  - Post property details including location, area, number of bedrooms, bathrooms, nearby amenities, etc.
+  - View posted properties.
+  - Update or delete properties.
+- Buyer Features:
+  - View all available rental properties.
+  - Filter properties based on criteria such as location, number of bedrooms, etc.
+  - Express interest in properties.
+- Additional Features:
+  - Pagination for property listings.
+  - Form validation for user inputs.
+  - Mandated login for accessing seller details.
+  - Like button for properties with live count tracking.
+  - Email notifications for buyer and seller interactions.
 
-In the project directory, you can run:
+## Technologies Used
+- Frontend:
+  - React.js for building the user interface.
+  - HTML, CSS, and JavaScript for styling and interactivity.
+- Backend:
+  - Node.js and Express.js for the server-side logic.
+  - MongoDB as the database for storing property and user data.
+- Other Technologies:
+  - JWT for user authentication.
+  - Nodemailer for sending email notifications.
+  - Heroku for deploying the application.
 
-### `npm start`
+## Installation and Setup
+1. Clone the repository:
+2. Navigate to the project directory:
+3. Install dependencies:
+4. Set up environment variables:
+- Create a `.env` file in the root directory.
+- Add environment variables for database connection, JWT secret, and other configurations.
+5. Start the development server:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
+The project is deployed on Heroku. You can access the live application [here](insert-link).
 
-### `npm run build`
+## Usage
+1. Register as a seller or buyer using the provided forms.
+2. Login with your credentials.
+3. As a seller, post your property details or update/delete existing properties.
+4. As a buyer, browse available properties, apply filters, and express interest in properties.
+5. Enjoy using Rentify to find your perfect rental property!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Contributing
+Contributions are welcome! If you'd like to contribute to Rentify, please follow these steps:
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/YourFeature`).
+3. Commit your changes (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact
+For any inquiries or feedback, please contact [siddiq kolimi](ezstudy26@gmail.com).
