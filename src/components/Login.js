@@ -24,7 +24,7 @@ const Login = () => {
       e.preventDefault();
       try {
           console.log('Form data being sent:', form); // Debug: Log form data
-          const response = await axios.post('http://3.111.144.79:5000/api/users/login', form);
+          const response = await axios.post('http://13.233.174.37:5000/api/users/login', form);
           console.log('API Response:', response.data); // Debug: Log API response
     
           const { token, result } = response.data;

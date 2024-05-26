@@ -22,7 +22,7 @@ const UpdateProperty = ({ token, property, onUpdate, title }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    axios.put(`http://3.111.144.79:5000/api/properties/${title}`, form, {
+    axios.put(`http://13.233.174.37:5000/api/properties/${title}`, form, {
       headers: { Authorization: `Bearer ${token}` }
     })
       .then(response => {

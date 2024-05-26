@@ -15,7 +15,7 @@ console.log( localStorage.getItem('userEmail'))
     const fetchProperties = async () => {
       try {
         const userEmail = localStorage.getItem('userEmail');
-        const response = await axios.get(`http://3.111.144.79:5000/api/properties/${userEmail}`, {
+        const response = await axios.get(`http://13.233.174.37:5000/api/properties/${userEmail}`, {
           headers: { Authorization: `Bearer ${token}` }
         });
         setProperties(response.data);
@@ -32,7 +32,7 @@ console.log( localStorage.getItem('userEmail'))
 
   const handleDelete = async (title) => {
     try {
-      await axios.delete(`http://3.111.144.79:5000/api/properties/${title}`, {
+      await axios.delete(`http://13.233.174.37:5000/api/properties/${title}`, {
         headers: { Authorization: `Bearer ${token}` }
       });
       // Update state after successful delete
@@ -48,7 +48,7 @@ console.log( localStorage.getItem('userEmail'))
 
   const handleUpdate = async (updatedProperty) => {
     try {
-      await axios.put(`http://3.111.144.79:5000/api/properties/${updatedProperty.title}`, updatedProperty, {
+      await axios.put(`http://13.233.174.37:5000/api/properties/${updatedProperty.title}`, updatedProperty, {
         headers: { Authorization: `Bearer ${token}` }
       });
       // Update state after successful update

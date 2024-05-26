@@ -27,7 +27,7 @@ const Register = () => {
       e.preventDefault();
       try {
           console.log('Form Data:', form);  // Log form data
-          const response = await axios.post('http://3.111.144.79:5000/api/users/register', form, {
+          const response = await axios.post('http://13.233.174.37:5000/api/users/register', form, {
               headers: {
                   'Content-Type': 'application/json'
               }

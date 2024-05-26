@@ -22,7 +22,7 @@ const PropertyListByuer = ({ token }) => {
   const [showSellerDetails, setShowSellerDetails] = useState(false); // State to control modal visibility
   const navigate = useNavigate(); 
   useEffect(() => {
-    axios.get('http://3.111.144.79:5000/api/properties')
+    axios.get('http://13.233.174.37:5000/api/properties')
       .then(response => {
         setProperties(response.data);
         setFilteredProperties(response.data);
@@ -42,7 +42,7 @@ const PropertyListByuer = ({ token }) => {
 
   const handleInterestedClick = (property) => {
     if (loggedIn) {
-      axios.get(`http://3.111.144.79:5000/api/properties/seller/${property.title}`)
+      axios.get(`http://13.233.174.37:5000/api/properties/seller/${property.title}`)
         .then(response => {
           setSellerDetails(response.data);
           setShowSellerDetails(true); // Show the modal when seller details are fetched

@@ -3,7 +3,7 @@ import axios from 'axios';
 
 const DeleteProperty = ({ token, title, onDelete }) => {
   const handleDelete = () => {
-    axios.delete(`http://3.111.144.79:5000/api/properties/${title}`, {
+    axios.delete(`http://13.233.174.37:5000/api/properties/${title}`, {
       headers: { Authorization: `Bearer ${token}` }
     })
       .then(response => {
